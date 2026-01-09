@@ -120,7 +120,7 @@ const SoftskillCard: React.FC = () => {
             iconType="circle"
             formatter={(value, entry: any) => (
               <span style={{ color: "var(--ifm-font-color-base)" }}>
-                {value}
+                {entry.payload.skill}
               </span>
             )}
           />
