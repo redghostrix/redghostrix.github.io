@@ -1,23 +1,21 @@
 {
-  "name": "Jane Zhang",
-  "title": "Senior Full-Stack Engineer",
+  "name": "Hayden Lee Wheeler",
+  "title": "GenAI Engineer | Senior Python Engineer | Bittensor Miner",
   "tagline": "Specializing in full-stack development, AI/ML integration, and scalable platform architecture",
-  "email": "jane1907476@gmail.com",
+  "email": "haydenleewheeler123@gmail.com",
   "location": "Bitola, North Macedonia",
-  "github": "shahfiqon",
-  "linkedin": "jane-zhang-840033397",
-  "twitter": "phoenix",
+  "github": "redghostrix",
+  "linkedin": "hayden-lee-wheeler-9ba505383",
   "availability": {
     "status": "available",
     "text": "Available for opportunities",
     "responseTime": "24-48 hours"
   },
-  "yearsExperience": "9+",
+  "yearsExperience": "10+",
   "urls": {
-    "site": "https://shahfiqon.github.io",
-    "github": "https://github.com/shahfiqon",
-    "linkedin": "https://www.linkedin.com/in/jane-zhang-840033397/",
-    "twitter": "https://twitter.com/phoenix"
+    "site": "https://redghostrix.github.io",
+    "github": "https://github.com/redghostrix",
+    "linkedin": "https://www.linkedin.com/in/hayden-lee-wheeler-9ba505383/"
   }
 }
 
