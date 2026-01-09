@@ -3,20 +3,27 @@
     { "label": "HOME", "href": "/" },
     { "label": "TECH", "href": "/tech" },
     { "label": "BLOG", "href": "/blog" },
-    { "label": "GITHUB", "href": "https://github.com/shahfiqon" },
+    { "label": "GITHUB", "href": "https://github.com/redghostrix" },
     { "label": "CONTACT", "href": "/contact" }
   ],
   "hero": {
-    "title": "Hi, I'm Jane Zhang",
+    "title": "Hi, I'm Hayden Lee Wheeler",
     "subtitle": "Senior Full-Stack Engineer with 9+ years specializing in full-stack development, AI/ML integration, and scalable platform architecture. Expert in React, TypeScript, FastAPI, PostgreSQL, and cloud infrastructure.",
     "ctaText": "View Projects",
-    "ctaLink": "/projects"
+    "ctaLink": "/projects",
+    "labels": [
+      "GenAI / ML Engineer",
+      "Bittensor Miner",
+      "Software Architect",
+      "Senior Python Developer",
+      "Full Stack Developer"
+    ]
   },
   "kpis": [
-    { "label": "Years Experience", "value": "9+" },
+    { "label": "Years Experience", "value": "10+" },
     { "label": "Companies", "value": "4" },
     { "label": "AI/ML Experience", "value": "5+ yrs" },
-    { "label": "Team Members Led", "value": "2+" },
+    { "label": "Team Members Led", "value": "3+" },
     { "label": "Cloud Experience", "value": "7+ yrs" },
     { "label": "Active Users Impacted", "value": "500k+" },
     { "label": "Daily Queries Processed", "value": "10k+" },

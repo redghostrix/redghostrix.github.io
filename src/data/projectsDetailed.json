@@ -20,7 +20,7 @@
         "demo": "/img/job-assistant.gif"
       },
       "links": {
-        "github": "https://github.com/shahfiqon/ai-job-bot",
+        "github": "https://github.com/redghostrix/ai-powered-job-search",
         "caseStudy": "/blog/ai-job-bot-architecture"
       },
       "date": "2025-12",
@@ -48,7 +48,7 @@
         "demo": "/img/agentic-hiring-workflow.gif"
       },
       "links": {
-        "github": "https://github.com/shahfiqon/agentic-hiring-orchestrator",
+        "github": "https://github.com/redghostrix/agentic-hiring-orchestrator",
         "caseStudy": "/blog/building-agentic-hiring-orchestrator"
       },
       "date": "2025-12",
