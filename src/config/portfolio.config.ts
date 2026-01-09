@@ -197,7 +197,7 @@ export const footerLinks: FooterSection[] = [
     items: [
       { label: 'GitHub', href: personal.urls.github },
       { label: 'LinkedIn', href: personal.urls.linkedin },
-      { label: 'Twitter', href: personal.urls.twitter },
+      { label: 'Email', href: `mailto:${personal.email}` },
     ],
   },
   {
