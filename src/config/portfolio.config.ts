@@ -60,6 +60,8 @@ export interface Experience {
   period: string;
   description: string;
   achievements: string[];
+  logo?: string;
+  skills?: string[];
 }
 
 export interface WhatIDoItem {

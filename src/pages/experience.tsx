@@ -107,27 +107,47 @@ export default function Experience() {
                   gap: "12px",
                 }}
               >
-                <div>
-                  <h2
-                    style={{
-                      fontSize: "24px",
-                      fontWeight: "700",
-                      margin: "0 0 8px 0",
-                      color: "var(--ifm-font-color-base)",
-                    }}
-                  >
-                    {exp.role}
-                  </h2>
-                  <h3
-                    style={{
-                      fontSize: "18px",
-                      fontWeight: "600",
-                      margin: 0,
-                      color: "var(--ifm-color-primary)",
-                    }}
-                  >
-                    {exp.company}
-                  </h3>
+                <div style={{ display: "flex", alignItems: "center", gap: "12px", flex: 1 }}>
+                  {exp.logo && (
+                    <img
+                      src={exp.logo}
+                      alt={`${exp.company} logo`}
+                      style={{
+                        width: "48px",
+                        height: "48px",
+                        objectFit: "contain",
+                        borderRadius: "8px",
+                        backgroundColor: "var(--ifm-color-emphasis-100)",
+                        padding: "4px",
+                      }}
+                      onError={(e) => {
+                        // Hide logo if image fails to load
+                        e.currentTarget.style.display = "none";
+                      }}
+                    />
+                  )}
+                  <div>
+                    <h2
+                      style={{
+                        fontSize: "24px",
+                        fontWeight: "700",
+                        margin: "0 0 8px 0",
+                        color: "var(--ifm-font-color-base)",
+                      }}
+                    >
+                      {exp.role}
+                    </h2>
+                    <h3
+                      style={{
+                        fontSize: "18px",
+                        fontWeight: "600",
+                        margin: 0,
+                        color: "var(--ifm-color-primary)",
+                      }}
+                    >
+                      {exp.company}
+                    </h3>
+                  </div>
                 </div>
                 <span
                   style={{
@@ -153,6 +173,47 @@ export default function Experience() {
               >
                 {exp.description}
               </p>
+
+              {exp.skills && exp.skills.length > 0 && (
+                <div style={{ marginBottom: "24px" }}>
+                  <h4
+                    style={{
+                      fontSize: "14px",
+                      fontWeight: "700",
+                      marginBottom: "12px",
+                      color: "var(--ifm-font-color-base)",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.5px",
+                    }}
+                  >
+                    Skills & Technologies
+                  </h4>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexWrap: "wrap",
+                      gap: "8px",
+                    }}
+                  >
+                    {exp.skills.map((skill, i) => (
+                      <span
+                        key={i}
+                        style={{
+                          padding: "4px 12px",
+                          backgroundColor: "var(--ifm-color-primary-lightest)",
+                          color: "var(--ifm-color-primary-dark)",
+                          borderRadius: "6px",
+                          fontSize: "13px",
+                          fontWeight: "600",
+                          border: "1px solid var(--ifm-color-primary-light)",
+                        }}
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               <div>
                 <h4
@@ -202,9 +263,11 @@ export default function Experience() {
           style={{
             marginTop: "60px",
             padding: "40px",
-            backgroundColor: "var(--ifm-color-primary-lightest)",
+            backgroundColor: "var(--ifm-card-background-color)",
+            border: "1px solid var(--ifm-color-emphasis-200)",
             borderRadius: "16px",
             textAlign: "center",
+            boxShadow: "var(--ifm-global-shadow-md)",
           }}
         >
           <h2
@@ -212,7 +275,7 @@ export default function Experience() {
               fontSize: "28px",
               fontWeight: "700",
               marginBottom: "16px",
-              color: "var(--ifm-font-color-base)",
+              color: "var(--ifm-color-emphasis-900)",
             }}
           >
             {cta.title}

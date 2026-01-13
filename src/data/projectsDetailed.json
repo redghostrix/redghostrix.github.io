@@ -13,7 +13,7 @@
         "quality": "Quality at scale achieved",
         "sources": "Multi-source job aggregation"
       },
-      "techStack": ["Next.js 14", "TypeScript", "Tailwind CSS", "shadcn/ui", "FastAPI", "Python", "SQLAlchemy", "Alembic", "LangChain", "Claude 3.5 Sonnet", "OpenAI GPT-4o", "PostgreSQL", "Docker", "Pydantic"],
+      "techStack": ["DSPy", "LangChain", "ETL", "llama.cpp", "Prompt Engineering", "Next.js 14", "TypeScript", "Tailwind CSS", "shadcn/ui", "FastAPI", "Python", "SQLAlchemy", "Alembic",  "Claude 3.5 Sonnet", "OpenAI GPT-4o", "PostgreSQL", "Docker", "Pydantic"],
       "domains": ["Full-Stack", "AI/LLM", "Automation", "Backend", "Frontend"],
       "media": {
         "thumbnail": "/img/job-assistant-thumb-enhanced.png",

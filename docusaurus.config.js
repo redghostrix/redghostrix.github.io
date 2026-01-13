@@ -112,6 +112,24 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  plugins: [
+    function (context, options) {
+      return {
+        name: "ignore-zone-identifier",
+        configureWebpack(config, isServer) {
+          const webpack = require("webpack");
+          return {
+            plugins: [
+              new webpack.IgnorePlugin({
+                resourceRegExp: /\.Zone\.Identifier$/,
+              }),
+            ],
+          };
+        },
+      };
+    },
+  ],
 };
 
 export default config;
