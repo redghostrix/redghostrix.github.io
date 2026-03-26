@@ -1,0 +1,55 @@
+{
+  "about": {
+    "hero": {
+      "title": "About Me",
+      "subtitle": "Senior Full-Stack Engineer specializing in AI/ML integration and scalable platform architecture"
+    },
+    "bio": {
+      "paragraphs": [
+        "With 9+ years of experience in full-stack development, I specialize in building end-to-end platforms from scratch, leading technical architecture decisions, and integrating Gen AI capabilities into production systems. My expertise spans React, TypeScript, FastAPI, PostgreSQL, and cloud infrastructure, with a strong focus on AI/ML integration and scalable platform architecture.",
+        "I bring 5+ years of hands-on experience in AI/ML Integration, Gen AI, LLM Orchestration, and Vector Databases, having built RAG-powered business intelligence features, deployed fine-tuned LLMs, and implemented distributed training pipelines. My work includes architecting MLOps platforms, AI-powered vector search systems, and real-time document analysis engines with 94%+ accuracy.",
+        "With 4+ years in Cloud Infrastructure and DevOps, I've established zero-downtime deployment pipelines, comprehensive observability infrastructure, and zero-trust security platforms. I'm passionate about leading technical initiatives, mentoring engineers, and shipping impactful features that process millions of requests daily while maintaining 99.9%+ uptime."
+      ]
+    },
+    "whatIDo": [
+      {
+        "title": "Full-Stack Development",
+        "description": "Building end-to-end platforms with React, TypeScript, FastAPI, and PostgreSQL with focus on scalable architecture"
+      },
+      {
+        "title": "AI/ML Integration",
+        "description": "Integrating Gen AI capabilities, LLM orchestration, RAG systems, and vector databases into production applications"
+      },
+      {
+        "title": "Platform Architecture",
+        "description": "Architecting scalable platforms, establishing API standards, and leading technical direction for engineering teams"
+      },
+      {
+        "title": "Cloud & DevOps",
+        "description": "Building cloud infrastructure on AWS/GCP, implementing CI/CD pipelines, and establishing monitoring and security practices"
+      }
+    ]
+  },
+  "contact": {
+    "hero": {
+      "title": "Let's Connect",
+      "subtitle": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+      "responseNote": "I typically respond within <strong>24-48 hours</strong>. For urgent matters, please mention \"urgent\" in your subject line."
+    },
+    "location": {
+      "title": "Location",
+      "text": "Based in Bitola, North Macedonia, open to remote opportunities worldwide."
+    },
+    "schedule": {
+      "title": "Schedule a Call",
+      "text": "Book a time that works best for you to discuss your project or opportunity."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Sebastian Portfolio",
+      "description": "9+ years of experience specializing in full-stack development, AI/ML integration, and scalable platform architecture"
+    }
+  }
+}
+

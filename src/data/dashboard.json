@@ -1,0 +1,100 @@
+{
+  "nav": [
+    { "label": "HOME", "href": "/" },
+    { "label": "TECH", "href": "/tech" },
+    { "label": "BLOG", "href": "/blog" },
+    { "label": "GITHUB", "href": "https://github.com/fortunedev777" },
+    { "label": "CONTACT", "href": "/contact" }
+  ],
+  "hero": {
+    "title": "Hi, I'm Sebastian Jaskulski",
+    "subtitle": "Senior Full-Stack Engineer with 9+ years specializing in full-stack development, AI/ML integration, and scalable platform architecture. Expert in React, TypeScript, FastAPI, PostgreSQL, and cloud infrastructure.",
+    "ctaText": "View Projects",
+    "ctaLink": "/projects",
+    "labels": [
+      "GenAI / ML Engineer",
+      "Bittensor Miner",
+      "Software Architect",
+      "Senior Python Developer",
+      "Full Stack Developer"
+    ]
+  },
+  "kpis": [
+    { "label": "Years Experience", "value": "10+" },
+    { "label": "Companies", "value": "4" },
+    { "label": "AI/ML Experience", "value": "5+ yrs" },
+    { "label": "Team Members Led", "value": "3+" },
+    { "label": "Cloud Experience", "value": "7+ yrs" },
+    { "label": "Active Users Impacted", "value": "500k+" },
+    { "label": "Daily Queries Processed", "value": "10k+" },
+    { "label": "System Uptime", "value": "99%" }
+  ],
+  "experience": [
+    {
+      "date": "2025",
+      "role": "Decentralized AI Miner | ML Engineer",
+      "company": "Bittensor Network",
+      "summary": "Deployed fine-tuned LLMs, implemented distributed training pipelines, built monitoring dashboards.",
+      "tags": ["LLM", "PyTorch", "vLLM", "Grafana"]
+    },
+    {
+      "date": "2021",
+      "role": "Senior Full-Stack Engineer",
+      "company": "BuiltMighty",
+      "summary": "Architected location intelligence platform, built RAG-powered BI features, led 2 engineers.",
+      "tags": ["React", "FastAPI", "LangChain", "AWS"]
+    },
+    {
+      "date": "2020",
+      "role": "Full-Stack Engineer",
+      "company": "FlintAI",
+      "summary": "Built authorship determination platform, AI content detection APIs, plagiarism detection engine.",
+      "tags": ["React", "FastAPI", "SageMaker", "ML"]
+    },
+    {
+      "date": "2015",
+      "role": "Full-Stack Engineer",
+      "company": "LevelAccess",
+      "summary": "Built accessibility testing engine, Angular design system, automated testing pipelines.",
+      "tags": ["Python", "Flask", "Angular", "WCAG"]
+    }
+  ],
+
+  "softskills": [
+    { "skill": "Communication", "value": 25 },
+    { "skill": "Teamwork", "value": 20 },
+    { "skill": "Problem Solving", "value": 22 },
+    { "skill": "Adaptability", "value": 12 },
+    { "skill": "Leadership", "value": 13 },
+    { "skill": "Creativity", "value": 8 }
+  ],
+  "charts": {
+    "skills": [
+      { "name": "Python", "value": 95 },
+      { "name": "TypeScript", "value": 95 },
+      { "name": "React", "value": 95 },
+      { "name": "FastAPI", "value": 95 },
+      { "name": "PostgreSQL", "value": 95 },
+      { "name": "AWS", "value": 92 },
+      { "name": "LangChain", "value": 92 },
+      { "name": "Docker", "value": 95 }
+    ],
+    "velocity": [
+      { "month": "Jan", "stories": 8 },
+      { "month": "Feb", "stories": 11 },
+      { "month": "Mar", "stories": 10 }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Design System",
+      "description": "Component library powering 4 products.",
+      "link": "https://github.com/you/design-system"
+    },
+    {
+      "title": "Analytics Portal",
+      "description": "Real-time KPI dashboards for execs.",
+      "link": "https://github.com/you/analytics-portal"
+    }
+  ]
+}

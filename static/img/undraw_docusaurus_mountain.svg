@@ -1,0 +1,109 @@
+<svg width="1088" height="688" viewBox="0 0 1088 688" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a8c0ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1088" height="688" fill="url(#skyGrad)"/>
+  
+  <!-- Sun -->
+  <circle cx="900" cy="120" r="60" fill="#ffd700" opacity="0.8"/>
+  <circle cx="900" cy="120" r="70" fill="#ffd700" opacity="0.4"/>
+  <circle cx="900" cy="120" r="80" fill="#ffd700" opacity="0.2"/>
+  
+  <!-- Clouds -->
+  <g opacity="0.6">
+    <ellipse cx="200" cy="100" rx="50" ry="30" fill="#fff"/>
+    <ellipse cx="230" cy="95" rx="40" ry="25" fill="#fff"/>
+    <ellipse cx="250" cy="105" rx="45" ry="28" fill="#fff"/>
+    
+    <ellipse cx="650" cy="150" rx="60" ry="35" fill="#fff"/>
+    <ellipse cx="690" cy="145" rx="50" ry="30" fill="#fff"/>
+    <ellipse cx="715" cy="155" rx="55" ry="32" fill="#fff"/>
+  </g>
+  
+  <!-- Far mountains (background) -->
+  <g opacity="0.7">
+    <path d="M 0 450 L 300 250 L 500 350 L 700 280 L 900 380 L 1088 300 L 1088 688 L 0 688 Z" 
+          fill="url(#mountainGrad1)"/>
+  </g>
+  
+  <!-- Middle mountains -->
+  <g opacity="0.85">
+    <path d="M 0 500 L 200 350 L 400 420 L 600 300 L 800 450 L 1000 350 L 1088 400 L 1088 688 L 0 688 Z" 
+          fill="url(#mountainGrad2)"/>
+  </g>
+  
+  <!-- Front mountains -->
+  <path d="M 0 550 L 150 420 L 300 480 L 450 380 L 650 520 L 850 400 L 1088 480 L 1088 688 L 0 688 Z" 
+        fill="#764ba2"/>
+  
+  <!-- Snow caps -->
+  <g opacity="0.9">
+    <path d="M 450 380 L 420 410 L 480 410 Z" fill="#fff"/>
+    <path d="M 850 400 L 820 430 L 880 430 Z" fill="#fff"/>
+  </g>
+  
+  <!-- Ground/Grass -->
+  <ellipse cx="544" cy="688" rx="500" ry="80" fill="#4a5568" opacity="0.3"/>
+  
+  <!-- Trees -->
+  <g transform="translate(100, 520)">
+    <!-- Tree 1 -->
+    <rect x="0" y="50" width="15" height="60" fill="#6b4423"/>
+    <path d="M 7.5 0 L -10 30 L 25 30 Z" fill="#2d5016"/>
+    <path d="M 7.5 20 L -10 50 L 25 50 Z" fill="#2d5016"/>
+    <path d="M 7.5 40 L -10 70 L 25 70 Z" fill="#2d5016"/>
+  </g>
+  
+  <g transform="translate(850, 540)">
+    <!-- Tree 2 -->
+    <rect x="0" y="40" width="12" height="50" fill="#6b4423"/>
+    <path d="M 6 0 L -8 25 L 20 25 Z" fill="#2d5016"/>
+    <path d="M 6 15 L -8 40 L 20 40 Z" fill="#2d5016"/>
+    <path d="M 6 30 L -8 55 L 20 55 Z" fill="#2d5016"/>
+  </g>
+  
+  <!-- Person hiking -->
+  <g transform="translate(650, 460)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="12" fill="#fcc9b5"/>
+    
+    <!-- Body -->
+    <ellipse cx="0" cy="25" rx="15" ry="20" fill="#667eea"/>
+    
+    <!-- Arms -->
+    <line x1="-10" y1="18" x2="-20" y2="10" stroke="#667eea" stroke-width="6" stroke-linecap="round"/>
+    <line x1="10" y1="18" x2="20" y2="28" stroke="#667eea" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Legs -->
+    <line x1="-5" y1="40" x2="-10" y2="60" stroke="#4a5568" stroke-width="6" stroke-linecap="round"/>
+    <line x1="5" y1="40" x2="12" y2="58" stroke="#4a5568" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Hiking stick -->
+    <line x1="-20" y1="10" x2="-25" y2="50" stroke="#6b4423" stroke-width="3"/>
+    
+    <!-- Backpack -->
+    <rect x="5" y="15" width="10" height="15" rx="2" fill="#f5576c"/>
+  </g>
+  
+  <!-- Birds -->
+  <g fill="#4a5568" opacity="0.6">
+    <path d="M 400 180 Q 410 175 420 180" stroke="#4a5568" stroke-width="2" fill="none"/>
+    <path d="M 420 180 Q 430 175 440 180" stroke="#4a5568" stroke-width="2" fill="none"/>
+    
+    <path d="M 750 200 Q 760 195 770 200" stroke="#4a5568" stroke-width="2" fill="none"/>
+    <path d="M 770 200 Q 780 195 790 200" stroke="#4a5568" stroke-width="2" fill="none"/>
+  </g>
+</svg>

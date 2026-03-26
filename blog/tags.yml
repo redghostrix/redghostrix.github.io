@@ -1,0 +1,144 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
+
+ai:
+  label: AI
+  permalink: /ai
+  description: Artificial Intelligence tag
+
+llm:
+  label: LLM
+  permalink: /llm
+  description: Large Language Model tag
+
+full-stack:
+  label: Full-Stack
+  permalink: /full-stack
+  description: Full-Stack Engineering tag
+
+architecture:
+  label: Architecture
+  permalink: /architecture
+  description: Architecture tag
+
+nextjs:
+  label: Next.js
+  permalink: /nextjs
+  description: Next.js tag
+
+fastapi:
+  label: FastAPI
+  permalink: /fastapi
+  description: FastAPI tag
+
+python:
+  label: Python
+  permalink: /python
+  description: Python tag
+
+typescript:
+  label: TypeScript
+  permalink: /typescript
+  description: TypeScript tag
+
+llama:
+  label: llama
+  permalink: /llama
+  description: llama.cpp and compatible open-source LLMs
+
+cuda:
+  label: CUDA
+  permalink: /cuda
+  description: NVIDIA CUDA GPU acceleration
+
+wsl:
+  label: WSL
+  permalink: /wsl
+  description: Windows Subsystem for Linux
+
+gpu:
+  label: GPU
+  permalink: /gpu
+  description: Graphics Processing Unit
+
+programming:
+  label: Programming
+  permalink: /programming
+  description: Programming language
+
+best-practices:
+  label: Best Practices
+  permalink: /best-practices
+  description: Coding and software development best practices
+
+rag:
+  label: RAG
+  permalink: /rag
+  description: Retrieval-Augmented Generation systems
+
+advanced:
+  label: Advanced
+  permalink: /advanced
+  description: Advanced programming techniques and concepts
+
+langgraph:
+  label: LangGraph
+  permalink: /langgraph
+  description: LangGraph orchestration framework for multi-agent systems
+
+multi-agent-systems:
+  label: Multi-Agent Systems
+  permalink: /multi-agent-systems
+  description: Multi-agent AI architectures and coordination patterns
+
+hiring:
+  label: Hiring
+  permalink: /hiring
+  description: AI-powered hiring and recruitment systems
+
+langchain:
+  label: LangChain
+  permalink: /langchain
+  description: LangChain framework for building LLM applications
+
+fine-tuning:
+  label: Fine-Tuning
+  permalink: /fine-tuning
+  description: Fine-tuning machine learning and LLM models
+
+decision-framework:
+  label: Decision Framework
+  permalink: /decision-framework
+  description: Decision-making frameworks and methodologies
+
+security:
+  label: Security
+  permalink: /security
+  description: Security best practices, encryption, and data protection
+
+encryption:
+  label: Encryption
+  permalink: /encryption
+  description: Encryption techniques and cryptographic implementations
+
+database:
+  label: Database
+  permalink: /database
+  description: Database design, optimization, and security
